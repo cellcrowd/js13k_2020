@@ -1,0 +1,25 @@
+{
+  "name": "404",
+  "version": "1.0.0",
+  "description": "Entry for js13kGames 2020, themed 404",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Danny van Geel <danny@flash-designer.nl> (http://www.flash-designer.nl)",
+  "license": "ISC",
+  "homepage": "https://github.com/cellcrowd/js13kGames-2020",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cellcrowd/js13kGames-2020.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
